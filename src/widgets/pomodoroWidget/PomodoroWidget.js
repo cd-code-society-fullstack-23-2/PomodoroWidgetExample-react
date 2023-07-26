@@ -2,15 +2,26 @@ import React, { useState, useEffect } from 'react';
 import Card from "../../components/card/Card"
 
 const PomodoroWidget = () => {
-    // Time is in seconds for simplicity
+    // Setting a constant variable called timeleft and creating a 
+    // function called setTimeleft and setting the initial value to 60
     const [timeLeft, setTimeLeft] = useState(60);
+
+    // Setting the constand variavle isActive and a function called setIsActive
+    // and isActive is equal to false
     const [isActive, setIsActive] = useState(false);
+
+    // We set a const variable to toggle and toggle is equal a thick arrow function
     const toggle = () => {
+        // we call function setIsActive and send in the opposite of isActive so if
+        // is active is = true it will change it to false 
         setIsActive(!isActive);
     }
 
+    // Creating a constant variable reset a making it equal to a thick arrow function
     const reset = () => {
+        // We call function setTimeLeft and sending in 60 to set the value of timeLeft
         setTimeLeft(60);
+        
         setIsActive(false);
     }
 
