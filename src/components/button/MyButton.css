@@ -1,0 +1,20 @@
+.rounded-button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* You can customize the background color here */
+    color: white; /* You can customize the text color here */
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s ease;
+}
+  
+  .rounded-button:hover {
+    background-color: #45a049; /* You can customize the hover background color here */
+  }
+  
+  .rounded-button:active {
+    background-color: #3e8e41; /* You can customize the active background color here */
+  }
+  

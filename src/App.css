@@ -1,0 +1,14 @@
+/* Center the component in the middle of the page */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
